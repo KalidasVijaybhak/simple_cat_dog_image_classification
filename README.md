@@ -1,4 +1,5 @@
 # Cat and Dog Image Classifier using Convolutional Neural Network (CNN)
+https://classify-cat-dog.streamlit.app/ 
 
 This project implements a Convolutional Neural Network (CNN) model to classify images as either cats or dogs. The model is trained on a dataset containing labeled images of cats and dogs, and achieves competitive performance in distinguishing between the two classes.
 
@@ -19,21 +20,19 @@ The CNN architecture used for this project consists of several convolutional lay
 
 The model is trained on a dataset sourced from [Kaggle](https://www.kaggle.com/datasets/sunilthite/cat-or-dog-image-classification/data). It includes a balanced collection of cat and dog images, each labeled accordingly.
 
-## Training
 
-The model is trained using [specify training details]:
+## Model Definition
 
-- **Optimizer:** [Optimizer algorithm, e.g., Adam].
-- **Loss Function:** [Loss function used, e.g., Cross-Entropy].
-- **Metrics:** [Evaluation metrics, e.g., Accuracy].
-- **Training Steps:** [Number of epochs and batch size].
+- **Activation Function:** ReLU is used in the convolutional layers.
+- **Output Activation Function:** Sigmoid is used in the final dense layer for binary classification.
 
-## Usage
+## Training Configuration
 
-To use the model:
-1. Clone this repository.
-2. Install the necessary dependencies.
-3. Run `python predict.py` to classify a custom image as either a cat or a dog.
+- **Optimizer:** Adam optimizer is used (`'adam'`).
+- **Loss Function:** Binary Cross-Entropy (`'binary_crossentropy'`) is used.
+- **Metrics:** Accuracy is used to evaluate the model's performance.
+- **Training Steps:** 11 epochs with a batch size of 64.
+
 
 ## Future Improvements
 
@@ -42,18 +41,10 @@ Potential enhancements and future work include:
 - Enhancing dataset diversity.
 - Improving model robustness and efficiency.
 
-## Contributors
-
-- [Your Name or Username]
-
-## License
-
-This project is licensed under the [License Name] License - see the LICENSE.md file for details.
-
 ## Sample Predictions
 
-![Cat Prediction](path_to_cat_image.jpg)  
-*Predicted: Cat (Probability: 0.85)*
+![image](https://github.com/KalidasVijaybhak/simple_cat_dog_image_classification/assets/70281178/071c7c67-dc00-4567-a9cf-ab098d820096)
+*Screenshot*
 
-![Dog Prediction](path_to_dog_image.jpg)  
-*Predicted: Dog (Probability: 0.92)*
+![image](https://github.com/KalidasVijaybhak/simple_cat_dog_image_classification/assets/70281178/67f47c2c-60c9-489b-a53e-1c810fed372d)
+*Model*
