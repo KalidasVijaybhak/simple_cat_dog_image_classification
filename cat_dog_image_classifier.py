@@ -56,7 +56,7 @@ with col2:
                 confidence = np.round((1-y_pred[0]) * 100, 2)  # Direct confidence for cat
 
             # Display the result with calculated confidence
-            st.header(f"This is a {output} with {str(confidence).strip("[]")}% confidence.")
+            st.header(f"This is a {output} with {str(confidence).strip('[]')}% confidence.")
 
 
         elif img_file_buffer is None:
