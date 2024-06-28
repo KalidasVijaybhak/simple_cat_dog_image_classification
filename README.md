@@ -41,10 +41,12 @@ Potential enhancements and future work include:
 - Enhancing dataset diversity.
 - Improving model robustness and efficiency.
 
-## Sample Predictions
+<div align="center">
+    <p><strong>Screenshot</strong></p>
+    <img src="https://github.com/KalidasVijaybhak/simple_cat_dog_image_classification/assets/70281178/071c7c67-dc00-4567-a9cf-ab098d820096" alt="Screenshot">
+</div>
 
-![image](https://github.com/KalidasVijaybhak/simple_cat_dog_image_classification/assets/70281178/071c7c67-dc00-4567-a9cf-ab098d820096)
-*Screenshot*
-
-![image](https://github.com/KalidasVijaybhak/simple_cat_dog_image_classification/assets/70281178/67f47c2c-60c9-489b-a53e-1c810fed372d)
-*Model*
+<div align="center">
+    <p><strong>Model</strong></p>
+    <img src="https://github.com/KalidasVijaybhak/simple_cat_dog_image_classification/assets/70281178/67f47c2c-60c9-489b-a53e-1c810fed372d" alt="Model">
+</div>
